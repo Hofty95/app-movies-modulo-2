@@ -11,7 +11,14 @@ const moviesDH = {
         })
         return movieFound.length ? movieFound : "no se encuentra la pelicula requerida"
 
+    },
+    searchMoviesByGenre : function(genre){
+        let movieByGenre;
+        movieByGenre = movies.filter(function (movie){
+            return movie.genre === genre
+        })
+        return movieByGenre.length ? movieByGenre : "no hay peliculas de ese genero"
     }
 }
 
-console.log(moviesDH.searchMovies(2))
+console.log(moviesDH.searchMoviesByGenre("Animación..."))
