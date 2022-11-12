@@ -5,7 +5,7 @@ module.exports = [
         rating : 8,
         awards : 4,
         length : 190,
-        price : "$450",
+        price : 450,
         genre : "Acción"
     },
     {
@@ -14,7 +14,7 @@ module.exports = [
         rating : 10,
         awards : 100,
         length : 90,
-        price : "$300",
+        price : 300,
         genre : "Animación"
     },
     {
@@ -23,7 +23,7 @@ module.exports = [
         rating : 7,
         awards : 2,
         length : 120,
-        price : "$250",
+        price : 250,
         genre : "Aventuras"
     },
     {
@@ -32,7 +32,7 @@ module.exports = [
         rating : 7,
         awards : 4,
         length : 130,
-        price : "$300",
+        price : 300,
         genre : "Comedia"
     },
     {
@@ -41,7 +41,7 @@ module.exports = [
         rating : 8,
         awards : 5,
         length : 145,
-        price : "$400",
+        price : 400,
         genre : "Suspenso"
     }
 ]

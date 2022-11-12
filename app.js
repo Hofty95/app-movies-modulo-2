@@ -18,6 +18,9 @@ const moviesDH = {
             return movie.genre === genre
         })
         return movieByGenre.length ? movieByGenre : "no hay peliculas de ese genero"
+    },
+    totalPrice : function(){
+        
     }
 }
 
